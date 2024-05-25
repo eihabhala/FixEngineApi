@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FixFileLog.cpp">
+      <Filter>FixExtensions</Filter>
+    </ClCompile>
+    <ClCompile Include="FixMessage.cpp">
+      <Filter>FixExtensions</Filter>
+    </ClCompile>
+    <ClCompile Include="FixFieldFormatter.cpp">
+      <Filter>FixExtensions</Filter>
+    </ClCompile>
+    <ClCompile Include="FixFeedClient.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>C++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FixFileLog.h">
+      <Filter>FixExtensions</Filter>
+    </ClInclude>
+    <ClInclude Include="FixMessage.h">
+      <Filter>FixExtensions</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFieldFormatter.h">
+      <Filter>FixExtensions</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FixFeedClient.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="FIX44.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FixExtensions">
+      <UniqueIdentifier>{b62334fa-f2e5-4e9d-9b7d-045c368200f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{423535ad-40fa-4b8a-8e8a-f8af0c93b1d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C++">
+      <UniqueIdentifier>{41a4f66d-da08-4cef-bdfc-a8d1e97d70a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
